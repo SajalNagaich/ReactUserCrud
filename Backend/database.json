@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "a8f4",
+      "username": "Sajal Nagaich ",
+      "useremail": "sajal@gmail.com",
+      "userphone": "6266700509",
+      "usercountry": "India",
+      "password": "6266",
+      "userdob": "2000-05-12"
+    },
+    {
+      "id": "0644",
+      "username": "Rakesh",
+      "useremail": "rakesh@gmail.com",
+      "userphone": "2345689768",
+      "usercountry": "India",
+      "password": "123456",
+      "userdob": "1998-06-13"
+    },
+    {
+      "id": "4246",
+      "username": "Aniket prasad",
+      "useremail": "aniket@gmail.com",
+      "userphone": "4238483274",
+      "usercountry": "India",
+      "password": "",
+      "userdob": "2000-12-21"
+    }
+  ]
+}

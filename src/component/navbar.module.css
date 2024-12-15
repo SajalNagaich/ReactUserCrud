@@ -1,0 +1,52 @@
+/* Navbar Container */
+.navcontroller {
+    background-color: rgba(57, 57, 217, 0.914);
+    padding: 10px 26px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px black;
+}
+
+/* Navigation List */
+.navcontroller ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Links */
+.navcontroller li {
+    font-size: 1.2rem;
+}
+
+.navcontroller a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+.navcontroller a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Active Link Indicator */
+.navcontroller a.active {
+    color: #e74c3c;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navcontroller {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navcontroller ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
